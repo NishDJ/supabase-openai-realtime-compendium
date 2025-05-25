@@ -21,7 +21,8 @@
 - Success metrics and KPIs defined
 
 ✅ **Branch Setup Complete**
-- Created `nishant-personal` branch
+- Created `nishant-personal` branch (for active development)
+- Created `base` branch (preserved as reference/baseline)
 - All changes committed and working tree clean
 - Ready for development work
 
@@ -82,6 +83,9 @@
 # Check current branch (should be nishant-personal)
 git branch
 
+# View all branches
+git branch -a
+
 # Check status
 git status
 
@@ -89,11 +93,10 @@ git status
 git add .
 git commit -m "✨ Description of changes"
 
-# Switch back to main if needed
-git checkout main
-
-# Switch back to personal branch
-git checkout nishant-personal
+# Branch switching
+git checkout main              # Original main branch
+git checkout base              # Preserved baseline (don't modify)
+git checkout nishant-personal  # Your working branch
 ```
 
 ### Development Commands
