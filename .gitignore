@@ -247,4 +247,4 @@ docs/_build/
 
 # Generated types
 types/generated/
-*.d.ts.map 
+*.d.ts.map .DS_Store
